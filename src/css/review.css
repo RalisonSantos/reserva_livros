@@ -1,0 +1,84 @@
+.review {
+  margin-top: calc(var(--margin-section) * 1.5);
+  position: relative;
+  text-align: center;
+}
+.review h1 {
+  width: 100%;
+  color: var(--sinary-color);
+  font-size: 5rem;
+  font-family: var(--tertiary-font);
+}
+.review .wrapper {
+  overflow: hidden;
+  margin-top: 4rem;
+}
+.review .wrapper .slide {
+  display: flex;
+}
+.review .wrapper .slide:hover {
+  will-change: transform;
+}
+.review .wrapper .slide li {
+  flex-shrink: 0;
+  max-width: 650px;
+  margin: 0 3rem;
+  overflow: hidden;
+  opacity: 0.9;
+  transform: scale(0.80);
+  filter: blur(4px);
+  transition: 0.4s;
+  text-align: center;
+  margin-bottom: 1.2rem;
+}
+.review .wrapper .slide li.active {
+  opacity: 1;
+  transform: scale(0.90);
+  filter: blur(0);
+}
+.review .wrapper .slide li h2 {
+  font-family: var(--secondary-font);
+  color: var(--quaternary-color);
+  font-size: 1.5rem;
+}
+.review .wrapper .slide li img {
+  object-fit: cover;
+  width: 100%;
+}
+.review .wrapper .slide li {
+  font-size: 1.3rem;
+}
+.review .arrow-nav {
+  position: absolute;
+  top: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+.review .arrow-nav button {
+  background: transparent;
+  border: none;
+}
+.review .arrow-nav button img {
+  max-width: 4rem;
+}
+
+@media screen and (max-width: 720px) {
+  .review h1 {
+    font-size: 2.5rem;
+  }
+  .review .wrapper{
+    margin-top: 1rem;
+  }
+  .review .wrapper .slide li {
+    max-width: 350px;
+  }
+  .review .arrow-nav {
+    top: 60%;
+    justify-content: space-between;
+  }
+  .review .arrow-nav button img {
+    max-width: 2.5rem;
+  }
+}

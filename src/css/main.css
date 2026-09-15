@@ -1,0 +1,74 @@
+body,
+h1,
+h2,
+dd,
+dt,
+p,
+ul,
+li,
+dl,
+nav {
+  margin: 0px;
+  padding: 0px;
+}
+ul,
+li {
+  list-style: none;
+}
+
+body {
+  background: var(--quaternary-color);
+}
+a {
+  text-decoration: none;
+}
+
+.txt-card-h1 {
+  font-size: 4.5rem !important;
+  font-family: var(--secondary-font) !important;
+}
+.responsive-svg {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+@font-face {
+  font-family: "montserrat-semibold";
+  src: url("../assets/fonts/Montserrat/static/Montserrat-SemiBoldItalic.ttf");
+}
+@font-face {
+  font-family: "fredoka";
+  src: url("../assets/fonts/fredoka-one/FredokaOne-Regular.ttf");
+}
+@font-face {
+  font-family: "montserrat-medium";
+  src: url("../assets/fonts/Montserrat/static/Montserrat-Medium.ttf");
+}
+@font-face {
+  font-family: "clash-semibold";
+  src: url("../assets/fonts/Clash/ClashDisplay-Semibold.ttf");
+}
+@font-face {
+  font-family: "clash-medium";
+  src: url("../assets/fonts/Clash/ClashDisplay-Medium.ttf");
+}
+@font-face {
+  font-family: "clash-regular";
+  src: url("../assets/fonts/Clash/ClashDisplay-Regular.ttf");
+}
+
+:root {
+  --primary-font: "fredoka";
+  --secondary-font: "montserrat-semibold";
+  --tertiary-font: "montserrat-medium";
+  --quaternary-font: "clash-semibold";
+  --quinary-font: "clash-medium";
+  --senary-font: "clash-regular";
+  --primary-color: #1a1a1a;
+  --secondary-color: #7c1a5c;
+  --tertiary-color: #141414;
+  --quaternary-color: #f9f9f9;
+  --quinary-color: #8ccd00;
+  --senary-color: #0c0019;
+  --margin-section: 7rem;
+}
