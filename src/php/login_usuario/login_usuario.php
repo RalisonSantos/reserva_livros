@@ -7,7 +7,7 @@
 
     <title>Login | Biblioteca Digital</title>
 
-    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="../../css/login_usuario/login.css">
 </head>
 
 <body>
@@ -85,8 +85,6 @@
 
                 </form>
 
-
-                <!-- Cadastro -->
                 <div class="cadastro">
 
                     <span>
